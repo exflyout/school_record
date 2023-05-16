@@ -29,6 +29,12 @@
             box-shadow: 0 0 10px rgba(0,0,0,0.2);
         }
     </style>
+    <script>
+        // Prevent the context menu (right-click menu) from opening
+        window.addEventListener('contextmenu', function (e) {
+            e.preventDefault();
+        });
+    </script>
 </head>
 <body>
     <div class="container">
